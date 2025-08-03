@@ -11,7 +11,7 @@ import org.springframework.stereotype.Controller;
 public class ChatController {
 
     //send message
-    @MessageMapping("/chat.sendMessage") //is it okay to put dot in the url?
+    @MessageMapping("/chat.sendMessage")
     @SendTo("/topic/public")
     public ChatMessage sendMessage(
             @Payload ChatMessage chatMessage

@@ -22,5 +22,5 @@ public class WebSocketConfig implements WebSocketMessageBrokerConfigurer {
     }
 }
 
-//What do the two methods do?
+
 
